@@ -85,8 +85,8 @@ function createFloating(){
     document.body.appendChild(el);
 
     // tốc độ nhanh hơn
-    let dx=(Math.random()-0.5)*5;
-    let dy=(Math.random()-0.5)*5;
+    let dx=(Math.random()-0.5)*7;
+    let dy=(Math.random()-0.5)*7;
     let angle=Math.random()*360;
 
     function move(){
@@ -160,8 +160,8 @@ function explode(x,y){
         p.style.filter="drop-shadow(0 0 10px #ff2a7f)";
         document.body.appendChild(p);
 
-        let dx=(Math.random()-0.5)*8;
-        let dy=(Math.random()-0.5)*8;
+        let dx=(Math.random()-0.5)*9;
+        let dy=(Math.random()-0.5)*9;
 
         let life=0;
 
@@ -188,3 +188,4 @@ setInterval(createFloating,250);
 </script>
 </body>
 </html>
+
